@@ -8,30 +8,41 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div>
-        <header id="header">Nintendo Switch
-          <div>
+    <div id="page-wrapper">
+        <header id="header">
+            <div id="logo">
               <img src="img/HACS_001_logo_R.jpg" alt="" id="header-img">
+            </div>
+              
               <nav id="nav-bar">
                 <ul>
-                  <li><a href="#Features" class="nav-link">Features</a></li>
-                  <li><a href="#About Us" class="nav-link">About Us</a></li>
-                  <li><a href="#Purchase" class="nav-link">Purchase</a></li>
+                  <li><a href="#features" class="nav-link">Features</a></li>
+                  <li><a href="#about-us" class="nav-link">About Us</a></li>
+                  <li><a href="#purchase" class="nav-link">Purchase</a></li>
                 </ul>
               </nav>            
-          </div>
           </header>
-          <h2>Suscribe for more Information</h2>
-          <form id="form">
-            <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-            <input id="submit" type="submit" value="Suscribe" class="btn">
-          </form>
+          <section id="hero">
+            <h2>Suscribe for more Information</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input name="email" id="email" type="email" placeholder="Enter your email address" required="" >
+              <input id="submit" type="submit" value="Suscribe" class="btn">
+            </form>
+          </section>
+
+          <section id="features"></section>
+
+          <section id="about-us">
+              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f5uik5fgIaI" 
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+              </iframe>
+          </section>
+
+          
+         
     </div>
-    <div> </div>
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f5uik5fgIaI" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
+  
 
     <script  src="js/index.js"></script>
   </body>
